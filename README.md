@@ -1,70 +1,7 @@
-# Getting Started with Create React App
+This Expense Tracker application helps the user manage their expenses to ensure that they don't overspend money or go into debt. It is a useful application for tracking every expense the user has and how much money remains after the expenses have been deducted. This gives the user an indication as to how much money they have left to spend.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To enter an income the user must enter a + follwed by an amount. This tells the tracker that the amount is an income. The name that the user entered for the income along with the value will be stored in the History column with a green tab.
+To enter an expense the user must enter the name of the expense in the income or expense column along with - and an amount in the Amount column. This tells the tracker that the amount entered is an expense and needs to be deducted from the income value. This information will then get stored in the History column next to a red tab to indicate an expense. Every income or expense entered into the tracker gets stored into the History column to keep a record of every source of income or expense that the user has. The new balance will then be displayed at the top of the page in Rands above the total amounts for Income and Expenses.
+This gives the user a detailed description of how much money has been deducted as expenses and how much money is remaining in the income that is available to be spent.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I once again used React.js, HTML, CSS and JavaScript to create this project along with ContextAPI. The most difficult part of creating this project was creating the function that calculates the balance, which I was able to achieve by doing some research and trying out different pieces of code.
